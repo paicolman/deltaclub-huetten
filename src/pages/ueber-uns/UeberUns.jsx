@@ -15,7 +15,7 @@ export default function UeberUns() {
         <iframe className='memberForm' onSubmit={hideForm} onClick={hideForm} src='https://dch.webling.ch/forms/memberform/2f733a2ba62aacdd71a6'>
 
         </iframe>
-        <div className='button' onClick={hideForm}>Zurück zur DCH Home</div>
+        <div className='button' onClick={hideForm}>Zurück zur Startseite</div>
       </div>
     )
   }
@@ -40,7 +40,7 @@ export default function UeberUns() {
         <h2>Werde Mitglied vom Delta Club Hütten!</h2>
         <p>
           Wir heissen alle flugbegeisterten Deltisten herzlich Willkommen in unserem Club. Gerne kannst du dich per Mail
-          (<a href='mailto:info@deltaclub-huetten.ch'>info@deltaclub-huetten.ch</a>) anmelden, oder via folgender Formular:
+          (<a href='mailto:info@deltaclub-huetten.ch'>info@deltaclub-huetten.ch</a>) anmelden, oder nutze am besten unser Anmeldeformular:
         </p>
         <div className='button' onClick={showForm}>Mitglied werden</div>
 
