@@ -1,0 +1,68 @@
+
+
+.tipps-container{
+  background-color:  black;
+	padding: 80px 15% 80px 15% ;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+	gap: 50px;
+}
+
+.tipp{
+	width: 100%;
+	color:  #213547;
+}
+
+.condor{
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+}
+
+
+.condor-pic-big{
+	width: 100%;
+	padding: 5px;
+}
+
+.condor-pic-small{
+	width: 50%;
+	padding: 5px;
+}
+
+.condor-text{
+	width: 100%;
+	background-color: lightgray;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	padding: 1rem;
+	border-radius:5px;
+}
+
+.condor-text h2,h3,p {
+	padding-bottom: 1.5rem;
+}
+
+
+@media(max-width: 970px){
+	.tipps-container{
+		padding: 40px 5% 40px 5% ;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	}
+
+	.condor{
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	}
+
+	.condor-pic-big{
+		width: 95%;
+	}
+
+	.condor-pic-small{
+		width: 95%;
+	}
+
+	.condor-text{
+		width: 95%;
+	}
+}

@@ -1,0 +1,22 @@
+.video-container{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+	background-color: black;
+	gap: 10px;
+	padding-top: 30px;
+	align-items: center;
+	justify-items: center;
+}
+
+.video{
+	width: 600px;
+}
+
+@media(max-width: 600px){
+	.video-container{
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	}
+	.video{
+		width: 300px;
+	}
+}

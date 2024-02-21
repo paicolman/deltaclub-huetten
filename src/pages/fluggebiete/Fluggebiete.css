@@ -1,0 +1,75 @@
+.fluggebiete{
+  padding: 50px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media(max-width: 768px){
+  .fluggebiete{
+    padding: 10px;
+  }
+}
+
+.fluggebiet-container{
+  background-color:lightgray;
+  color: #213547;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 10px;
+}
+
+.fluggebiet-item{
+  padding: 5px;
+}
+.fluggebiet-image{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.fluggebiet-description{
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.fluggebiet-description h2{
+  font-size: 2.5rem;
+}
+
+.fluggebiet-description h3{
+  font-size: 2rem;
+}
+
+
+@media(max-width: 970px){
+  .fluggebiet-container{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .fluggebiet-description{
+    font-size: 1rem;
+    line-height: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .fluggebiet-description h2{
+    font-size: 2.2rem;
+    margin: 15px;
+  }
+
+
+.fluggebiet-description h3{
+  font-size: 1.5rem;
+  margin: 15px;
+}
+}
+
+

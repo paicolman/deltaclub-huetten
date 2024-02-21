@@ -1,0 +1,35 @@
+.main-container{
+	background-color: black;
+	color: lightgray;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 1.2rem;
+	line-height: 2.5rem;
+}
+
+.tipps-container{
+  background-color: black;
+  padding: 30px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+	gap: 40px;
+}
+
+.tipp{
+	min-height: 300px;
+	background-color: lightgray;
+	color: #213547;
+	border-radius: 5px;
+}
+
+.tipp p{
+	text-align: left;
+	padding: 10px;
+	line-height: 2rem;
+}
+
+@media(max-width: 970px){
+	.tipps-container{
+		grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+	}
+}

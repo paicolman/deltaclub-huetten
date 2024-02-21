@@ -1,0 +1,19 @@
+.merch{
+  padding: 50px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.merch h3{
+  color:azure;
+}
+
+@media(max-width: 768px){
+  .carousel{
+    min-height: 1000px;
+    padding: 10px;
+  }
+}
