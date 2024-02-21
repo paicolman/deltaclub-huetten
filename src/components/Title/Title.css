@@ -24,7 +24,7 @@
 .title-club-events {
   margin-top:140px;
   height: 600px;
-  background-image: url('assets/backdrop-club-events.jpg');
+  background-image: url('backdrop-club-events.jpg');
   background-size: cover;
   background-position: 0% 40%;
 }
@@ -36,7 +36,7 @@
 .title-fluggebiete {
   margin-top: 140px;
   height: 600px;
-  background-image: url('assets/backdrop-fluggebiete.jpg');
+  background-image: url('backdrop-fluggebiete.jpg');
   background-size: cover;
   background-position: 0% 50%;
 }
@@ -48,7 +48,7 @@
 .title-flugpraxis {
   margin-top: 140px;
   height: 600px;
-  background-image: url('assets/backdrop-praxis.png');
+  background-image: url('backdrop-praxis.png');
   background-size: cover;
   background-position: 0% 100%;
 }
@@ -61,7 +61,7 @@
 .title-gallery {
   margin-top: 140px;
   height: 600px;
-  background-image: url('assets/backdrop-gallerie.jpg');
+  background-image: url('backdrop-gallerie.jpg');
   background-size: cover;
   background-position: 0% 80%;
 }
@@ -73,7 +73,7 @@
 .title-merch {
   margin-top: 140px;
   height: 600px;
-  background-image: url('assets/backdrop-merch.jpg');
+  background-image: url('backdrop-merch.jpg');
   background-size: cover;
   background-position: 0% 30%;
 }
@@ -85,7 +85,7 @@
 .title-selber {
   margin-top: 140px;
   height: 600px;
-  background-image: url('assets/backdrop-selber.jpg');
+  background-image: url('backdrop-selber.jpg');
   background-size: cover;
   background-position: 0% 40%;
 }
@@ -97,7 +97,7 @@
 .title-ueber-uns {
   margin-top: 140px;
   height: 1000px;
-  background-image: url('assets/backdrop-ueber-uns.jpg');
+  background-image: url('backdrop-ueber-uns.jpg');
   background-size: cover;
   background-position: 0% 00%;
 }
@@ -110,7 +110,7 @@
 .title-videos {
   margin-top: 140px;
   height: 600px;
-  background-image: url('assets/backdrop-videos.jpg');
+  background-image: url('backdrop-videos.jpg');
   background-size: cover;
   background-position: 0% 30%;
 }
@@ -143,7 +143,7 @@
 
   .title-ueber-uns {
     height: 300px;
-    background-image: url('assets/backdrop-ueber-uns.jpg');
+    background-image: url('backdrop-ueber-uns.jpg');
   }
 
   .title-ueber-uns h1 {
@@ -154,7 +154,7 @@
   .title-club-events {
     margin-top: 80px;
     height: 120px;
-    background-image: url('assets/backdrop-club-events.jpg');
+    background-image: url('backdrop-club-events.jpg');
   }
 
   .title-club-events h1 {
@@ -165,7 +165,7 @@
   .title-fluggebiete {
     margin-top: 80px;
     height: 120px;
-    background-image: url('assets/backdrop-fluggebiete.jpg');
+    background-image: url('backdrop-fluggebiete.jpg');
   }
 
   .title-fluggebiete h1 {
@@ -176,7 +176,7 @@
   .title-flugpraxis {
     margin-top: 80px;
     height: 120px;
-    background-image: url('assets/backdrop-praxis.png');
+    background-image: url('backdrop-praxis.png');
   }
 
   .title-flugpraxis h1 {
@@ -187,7 +187,7 @@
   .title-gallery {
     margin-top: 80px;
     height: 120px;
-    background-image: url('assets/backdrop-gallerie.jpg');
+    background-image: url('backdrop-gallerie.jpg');
   }
 
   .title-gallery h1 {
@@ -198,7 +198,7 @@
   .title-merch {
     margin-top: 80px;
     height: 120px;
-    background-image: url('assets/backdrop-merch.jpg');
+    background-image: url('backdrop-merch.jpg');
   }
 
   .title-merch h1 {
@@ -209,7 +209,7 @@
   .title-selber {
     margin-top: 80px;
     height: 120px;
-    background-image: url('assets/backdrop-selber.jpg');
+    background-image: url('backdrop-selber.jpg');
   }
 
   .title-selber h1 {
@@ -220,7 +220,7 @@
   .title-ueber-uns {
     margin-top: 80px;
     height: 240px;
-    background-image: url('assets/backdrop-ueber-uns.jpg');
+    background-image: url('backdrop-ueber-uns.jpg');
   }
 
   .title-ueber-uns h1 {
@@ -230,7 +230,7 @@
   .title-videos {
     margin-top: 80px;
     height: 120px;
-    background-image: url('assets/backdrop-videos.jpg');
+    background-image: url('backdrop-videos.jpg');
   }
 
   .title-videos h1 {

@@ -24,9 +24,6 @@ function App() {
           <Route path='/selber-fliegen' element={<SelberFliegen />} />
           <Route path='/ueber-uns' element={<UeberUns />} />
           <Route path='/videos' element={<Videos />} />
-          <Route path='/dch-test' element={<UeberUns />} />
-          <Route path='/dch-test/ueber-uns' element={<UeberUns />} />
-          <Route path='/dch-test/fluggebiete' element={<Fluggebiete />} />
         </Routes>
       </Navigate>
     </>
