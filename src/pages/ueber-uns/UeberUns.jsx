@@ -3,10 +3,18 @@ import Navbar from '../../components/navbar/Navbar';
 import Title from '../../components/Title/Title';
 import Footer from '../../components/footer/Footer';
 import './UeberUns.css'
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useNavigate } from 'react-router-dom';
 
 export default function UeberUns() {
   const [memberForm, setForm] = useState()
+  const navigate = useNavigate()
+
+  useEffect(() => {
+    if (window.location.search === '') { return }
+    const navPath = `/${window.location.search.split('?')[1]}`
+    navigate(navPath)
+  }, [])
 
   function showForm() {
     console.log('Showing form now')
