@@ -2,8 +2,9 @@ import Fluggebiet1 from './Fluggebiet1';
 import Fluggebiet2 from './Fluggebiet2';
 import Footer from '../../components/footer/Footer';
 import Navbar from '../../components/navbar/Navbar';
-import Title from '../../components/Title/Title';
+import Title from '../../components/title/Title';
 import './Fluggebiete.css'
+import Wind from '../wind/Wind';
 
 export default function Fluggebiete() {
 
@@ -14,6 +15,7 @@ export default function Fluggebiete() {
       <div className='fluggebiete'>
         <Fluggebiet1 />
         <Fluggebiet2 />
+        <Wind />
       </div>
       <Footer />
     </>

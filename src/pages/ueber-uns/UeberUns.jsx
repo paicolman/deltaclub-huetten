@@ -1,6 +1,6 @@
 
 import Navbar from '../../components/navbar/Navbar';
-import Title from '../../components/Title/Title';
+import Title from '../../components/title/Title';
 import Footer from '../../components/footer/Footer';
 import './UeberUns.css'
 import { useEffect, useState } from "react";

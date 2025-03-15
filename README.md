@@ -1,8 +1,10 @@
-# React + Vite
+# Dev mode
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+npm run dev. Should start a webserver on localhost:5173
 
-Currently, two official plugins are available:
+# Build and distribute
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+npm run build
+
+Updates the dist directory. This can be distributed to deltaclub page under httpdocs.
+Minimal changes require only an update of all items in the assets directory, plus the root index.html

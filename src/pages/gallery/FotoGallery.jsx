@@ -1,7 +1,7 @@
 import Footer from '../../components/footer/Footer';
 import Gallery from './Gallery';
 import Navbar from '../../components/navbar/Navbar';
-import Title from '../../components/Title/Title';
+import Title from '../../components/title/Title';
 
 
 function App() {

@@ -9,6 +9,7 @@ import Merch from './pages/merch/Merch'
 import SelberFliegen from './pages/selber-fliegen/SelberFliegen'
 import UeberUns from './pages/ueber-uns/UeberUns'
 import Videos from './pages/videos/Videos'
+import Wind from './pages/wind/Wind'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
     <>
       <Navigate>
         <Routes>
+          <Route path='/wind' element={<Wind />} />
           <Route path='/' element={<UeberUns />} />
           <Route path='/club-events' element={<ClubEvents />} />
           <Route path='/fluggebiete' element={<Fluggebiete />} />

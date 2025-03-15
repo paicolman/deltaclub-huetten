@@ -1,7 +1,7 @@
 
 import Footer from '../../components/footer/Footer';
 import Navbar from '../../components/navbar/Navbar';
-import Title from '../../components/Title/Title';
+import Title from '../../components/title/Title';
 import './SelberFliegen.css'
 
 export default function SelberFliegen() {

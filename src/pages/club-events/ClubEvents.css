@@ -25,6 +25,10 @@
   text-align: left !important;
   font-weight: bold;
 }
+.anlassDesc{
+	font-weight: lighter;
+	font-size: 1rem;
+}
 
 .table th{
 	background-color: lightslategrey;
