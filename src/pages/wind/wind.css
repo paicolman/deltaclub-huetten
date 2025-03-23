@@ -1,5 +1,118 @@
-.windGaugeContainer{
-  width: 700px;
-  padding: 50px;
-  background-color: white;
+.windRoot{
+  display: flex;
+  justify-content: center;
+  
+}
+.windPageContainer{
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 99%;
+  padding: 5px;
+  border-radius: 10px;
+  align-self: center;
+  position: relative;
+}
+
+.windRoseContainer{
+  background-image: url(/gaesi.png);
+  background-size: contain;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 15px;
+  width: 100%;
+}
+
+.back {
+  background-color: aqua;
+}
+
+.windsock{
+  height: 130px;
+  position: relative;
+  /*top: -50px;
+  left: -200px;*/
+  transform-origin: 50% 0%;
+}
+
+.windData{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-items: center;
+  justify-content: space-evenly;
+}
+
+.windChartTitle{
+  width: 80%;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.chartSelect{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.legend{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-items: start;
+  align-items: start;
+  justify-content: center;
+  font-size: smaller;
+}
+.wind {
+  color: #0040ff;
+  font-weight: bold;
+}
+.boen1 {
+  color: #ff4000;
+}
+.boen3 {
+  color: #bb0000;
+}
+.minbo {
+  color: #00aa00;
+}
+
+.mask-box {
+  border-radius: 20px;
+  position: relative;
+  background: #e5cfff;
+  box-shadow: 1px 1px 2px rgb(165, 165, 165) inset;
+}
+
+.mask-box .mask {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background: #8400ed;
+  position: absolute;
+  box-shadow: 1px 0 2px #b473ff;
+  transition: all 0.5s ease;
+}
+
+.mask-box .MuiButton-root {
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  transition: all 0.2s 0.1s ease;
+}
+
+.mask-box .MuiButton-root:hover {
+  opacity: 0.8;
 }

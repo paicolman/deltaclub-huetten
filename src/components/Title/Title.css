@@ -237,4 +237,12 @@
     font-size: 2rem;
     text-align: center;
   }
+
+  .title-wind {
+    margin-top: 140px;
+    height: 600px;
+    background-image: url('backdrop-gallerie.jpg');
+    background-size: cover;
+    background-position: 0% 80%;
+  }
 }

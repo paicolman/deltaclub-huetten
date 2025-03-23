@@ -15,7 +15,7 @@ export default function Fluggebiete() {
       <div className='fluggebiete'>
         <Fluggebiet1 />
         <Fluggebiet2 />
-        <Wind />
+
       </div>
       <Footer />
     </>

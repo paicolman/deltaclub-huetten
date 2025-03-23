@@ -33,6 +33,7 @@ export default function Navbar() {
           <li onClick={() => { navigate('/flugpraxis') }}>Flugpraxis</li>
           <li onClick={() => { navigate('/selber-fliegen') }}>Selber fliegen?</li>
           <li onClick={() => { navigate('/merch') }}>Merch</li>
+          {/* <li onClick={() => { navigate('/wind') }}>Wind</li> */}
         </ul>
       </nav>
     </>
